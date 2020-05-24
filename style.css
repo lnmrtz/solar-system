@@ -1,0 +1,206 @@
+* {
+    margin:0;
+    padding: 0;
+}
+body {
+    background: url("images/space.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+.system {
+width: 100%;
+    display: flex;
+height: 100vh;
+align-items: center;
+justify-content: center;
+
+}
+.orbit1 {
+    border: 0.3px cadetblue solid;
+    width: 90vh;
+    height: 90vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: rotate infinite  linear 50s;
+}
+.neptune {
+    position: absolute;
+    width: 8vh;
+    height: 8vh;
+    background: url('images/neptune.png') center / cover;
+    top: 120px;
+    left: 20px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.orbit2 {
+    border: 0.3px cadetblue solid;
+    width: 80vh;
+    height: 80vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: rotate infinite  linear 50s;
+}
+.uranus {
+    position: absolute;
+    width: 8vh;
+    height: 8vh;
+    background: url('images/uranus.png') center / cover;
+    top: 100px;
+    left: 20px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.orbit3 {
+    border: 0.3px cadetblue solid;
+    width: 70vh;
+    height: 70vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: rotate infinite  linear 45s;
+}
+.saturn {
+    position: absolute;
+    width: 20vh;
+    height: 10vh;
+    background: url('images/saturn.png') center / cover;
+    top: 70px;
+    left: 20px;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+.orbit4 {
+    border: 0.3px cadetblue solid;
+    width: 60vh;
+    height: 60vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: rotate infinite  linear 45s;
+}
+.jupiter {
+    position: absolute;
+    width: 13vh;
+    height: 13vh;
+    background: url('images/jupiter.png') center / cover;
+    top: 40px;
+    left: 20px;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+.orbit5 {
+    border: 0.3px cadetblue solid;
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: rotate infinite  linear 35s;
+}
+.mars {
+    position: absolute;
+    width: 5vh;
+    height: 5vh;
+    background: url('images/mars.png') center / cover;
+    top: 60px;
+    left: 20px;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+.orbit6 {
+    border: 0.3px cadetblue solid;
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: rotate infinite  linear 35s;
+}
+.earth {
+    position: absolute;
+    width: 7vh;
+    height: 7vh;
+    background: url('images/earth.png') center / cover;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+z-index: 1;
+}
+.orbit7 {
+    border: 0.3px cadetblue solid;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: rotate infinite  linear 30s;
+}
+.venus {
+    position: absolute;
+    width: 7vh;
+    height: 7vh;
+    background: url('images/venus.png') center / cover;
+    top: 5px;
+    left: 20px;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+.orbit8 {
+    border: 0.3px cadetblue solid;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: rotate infinite  linear 25s;
+}
+.mercury {
+    position: absolute;
+    width: 4vh;
+    height: 4vh;
+    background: url('images/mercury.png') center / cover;
+    top: 2px;
+    left: 20px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.sun {
+
+    width: 15vh;
+    height: 15vh;
+    background: url('images/sun.png') center / cover;
+    top: 2px;
+    left: 20px;
+    border-radius: 50%;
+
+}
